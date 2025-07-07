@@ -6,7 +6,7 @@ use std::{env, thread, time::Duration};
 const POLL_INTERVAL: Duration = Duration::from_secs(15);
 
 /// PWM output frequency in Hz.
-const PWM_FREQUENCY_HZ: f64 = 100.0;
+const PWM_FREQUENCY_HZ: f64 = 25000.0;
 
 /// Name of env vars to read.
 const ENV_VAR_DUTY: &str = "PWM_DUTY";
