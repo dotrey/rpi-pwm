@@ -1,0 +1,8 @@
+[package]
+name = "rpi-pwm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rppal   = "0.13"
+anyhow  = "1.0"
